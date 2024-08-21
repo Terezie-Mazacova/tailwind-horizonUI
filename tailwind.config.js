@@ -6,6 +6,10 @@ module.exports = {
       jakarta: ['Plus Jakarta Sans', 'sans-serif'],
     },
     extend: {
+      boxShadow: {
+        'shadow' : '0 32px 64px -12px rgba(85, 105, 135, 0.13)',
+      },
+
       colors: {
         'primary-purple-blue-100' : '#E9E3FF',
         'primary-purple-blue-200' : '#B9A2FF',
