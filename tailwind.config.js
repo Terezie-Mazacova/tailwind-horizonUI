@@ -2,6 +2,15 @@
 module.exports = {
   content: ["./*.{html,js}"],
   theme: {
+    screens: {
+      'sm' : {'max': '767px'},
+      'sm-grid': {'min': '768px'},
+      '2sm' : {'min': '768px', 'max': '1023px'},
+      'md' : {'max': '1023px'},
+      '2md' : {'min': '1024px'},
+      'lg' : {'min': '768px', 'max': '1279px'},
+    },
+
     fontFamily: {
       jakarta: ['Plus Jakarta Sans', 'sans-serif'],
     },
@@ -25,6 +34,8 @@ module.exports = {
       maxWidth: {
         '1440' : '1440px',
       },
+
+      
     },
   },
   plugins: [],
